@@ -50,12 +50,10 @@ sayHello();
 sayWorld();
 
 //Q7
-user = {
-  birthday: '2000-09-27',
-  sayHello: function(){
+user.birthday = '2000-09-27',
+user.sayHello = function(){
     console.log('Hello!');
-  }
-};
+  };
 console.log(user.birthday);
 user.sayHello();
 
